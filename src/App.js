@@ -1,29 +1,31 @@
-import React from 'react';
-import { ThemeProvider } from './context/ThemeContext';
-import Header from './components/sections/Header';
-import Hero from './components/sections/Hero';
-import About from './components/sections/About';
-import Skills from './components/sections/Skills';
-import Works from './components/sections/Works';
-import Contacts from './components/sections/Contacts';
-import Footer from './components/sections/Footer';
+import React from "react";
+import Navbar from "./components/layout/Navbar";
+import HeroSection from "./components/sections/Hero/HeroSection";
+import StatStrip from "./components/sections/Stats/StatStrip";
+import AboutSection from "./components/sections/About/AboutSection";
+import ExpertiseSection from "./components/sections/Expertise/ExpertiseSection";
+import SkillsSection from "./components/sections/Skills/SkillsSection";
+import ExperienceSection from "./components/sections/Experience/ExperienceSection";
+import ProjectsSection from "./components/sections/Projects/ProjectsSection";
+import ContactSection from "./components/sections/Contact/ContactSection";
+import Footer from "./components/layout/Footer";
 
-function App() {
+export default function App() {
   return (
-    <ThemeProvider>
-      <div className='flex flex-col min-h-screen'>
-        <Header />
-        <main>
-          <Hero />
-          <About />
-          <Skills />
-          <Works />
-          <Contacts />
-        </main>
-        <Footer />
-      </div>
-    </ThemeProvider>
+    <div className="flex flex-col min-h-screen bg-bg text-text-primary selection:bg-accent selection:text-accent-fg">
+      <Navbar />
+      <main className="flex-1">
+        <HeroSection />
+        <StatStrip />
+        <AboutSection />
+        <ExpertiseSection />
+        <SkillsSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <ContactSection />
+      </main>
+      <Footer />
+    </div>
   );
 }
 
-export default App;
