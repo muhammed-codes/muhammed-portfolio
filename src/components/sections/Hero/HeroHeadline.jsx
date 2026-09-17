@@ -2,8 +2,8 @@ import React from "react";
 
 export default function HeroHeadline({
   name = "[MUHAMMED BELLO]",
-  subheadline = "[FullStack Engineer & Technical Problem Solver]",
-  intro = "[Building scalable web applications, mobile platforms, and robust backend architectures with modern engineering practices.]",
+  subheadline = "Full Stack Developer",
+  intro = "I build production software end to end — backend, mobile, and web — and I'm currently the lead developer behind a platform serving thousands of real customers.",
 }) {
   return (
     <div className="flex flex-col gap-4 mb-6">

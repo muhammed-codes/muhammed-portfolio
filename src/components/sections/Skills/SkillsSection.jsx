@@ -4,78 +4,22 @@ import SkillsFilterTabs from "./SkillsFilterTabs";
 import SkillCard from "./SkillCard";
 
 const ALL_SKILLS = [
-  {
-    name: "NestJS",
-    category: "BACKEND",
-    tier: "CORE COMPETENCY",
-    description: "Enterprise Node.js framework for scalable modular server architectures and dependency injection.",
-  },
-  {
-    name: "TypeScript",
-    category: "BACKEND",
-    tier: "CORE COMPETENCY",
-    description: "Strictly typed contracts and interfaces across full-stack backend, frontend, and mobile codebases.",
-  },
-  {
-    name: "React Native",
-    category: "MOBILE",
-    tier: "ADVANCED",
-    description: "Cross-platform mobile application engineering with Expo, camera APIs, and native device modules.",
-  },
-  {
-    name: "React",
-    category: "FRONTEND",
-    tier: "ADVANCED",
-    description: "Component-driven responsive web applications, modern hooks, and state management architectures.",
-  },
-  {
-    name: "PostgreSQL",
-    category: "DATABASE & TOOLS",
-    tier: "ADVANCED",
-    description: "Relational database modeling, complex queries, indexing optimizations, and data integrity constraints.",
-  },
-  {
-    name: "Prisma ORM",
-    category: "DATABASE & TOOLS",
-    tier: "ADVANCED",
-    description: "Type-safe database modeling, automated client generation, and schema migration workflows.",
-  },
-  {
-    name: "GraphQL",
-    category: "BACKEND",
-    tier: "PROFICIENT",
-    description: "Declarative API schemas, Apollo server resolvers, and client data query optimizations.",
-  },
-  {
-    name: "Next.js",
-    category: "FRONTEND",
-    tier: "PROFICIENT",
-    description: "Server-side rendering, static site generation, and optimized full-stack React routing.",
-  },
-  {
-    name: "Supabase",
-    category: "DATABASE & TOOLS",
-    tier: "PROFICIENT",
-    description: "Backend-as-a-service, PostgreSQL database hosting, row-level security, and authentication.",
-  },
-  {
-    name: "Tailwind CSS",
-    category: "FRONTEND",
-    tier: "CORE COMPETENCY",
-    description: "Utility-first design token-driven styling systems, layout grids, and responsive components.",
-  },
-  {
-    name: "WatermelonDB",
-    category: "MOBILE",
-    tier: "PROFICIENT",
-    description: "High-performance reactive local-first database with lazy loading and background sync.",
-  },
-  {
-    name: "Git & CI/CD",
-    category: "DATABASE & TOOLS",
-    tier: "CORE COMPETENCY",
-    description: "Git flow, automated test pipelines, GitHub Actions, and release deployments.",
-  },
+  { name: "NestJS", category: "BACKEND", tier: "", description: "Backend — the framework I use daily for modular, production-grade services." },
+  { name: "TypeScript", category: "BACKEND", tier: "", description: "Backend/Frontend/Mobile — typed contracts across every layer I build." },
+  { name: "React Native", category: "MOBILE", tier: "", description: "Mobile — cross-platform apps with Expo, shipped and in active use." },
+  { name: "React / Next.js", category: "FRONTEND", tier: "", description: "Frontend — dashboards and admin panels for the platforms I build." },
+  { name: "PostgreSQL", category: "DATABASE & TOOLS", tier: "", description: "Database — relational modelling and query design for production data." },
+  { name: "MongoDB", category: "DATABASE & TOOLS", tier: "", description: "Database — used on MSGold's backend alongside PostgreSQL." },
+  { name: "Prisma / TypeORM", category: "DATABASE & TOOLS", tier: "", description: "Database — schema modelling, migrations, type-safe data access." },
+  { name: "Supabase", category: "DATABASE & TOOLS", tier: "", description: "Database/Backend — used on SchoolPilot for backend services." },
+  { name: "GraphQL / Apollo", category: "BACKEND", tier: "", description: "Backend — API schemas and resolvers behind every product I currently maintain." },
+  { name: "WatermelonDB", category: "MOBILE", tier: "", description: "Mobile — offline-first local database for Taskr." },
+  { name: "Socket.IO", category: "DATABASE & TOOLS", tier: "", description: "Real-time — live updates across mobile and web clients." },
+  { name: "Firebase", category: "DATABASE & TOOLS", tier: "", description: "Backend/Mobile — notifications and auxiliary services for ZyncGold." },
+  { name: "Paystack", category: "DATABASE & TOOLS", tier: "", description: "Payments — transaction handling for SchoolPilot's fees and finance module." },
+  { name: "Tailwind CSS", category: "FRONTEND", tier: "", description: "Frontend — utility-first styling used on SchoolPilot." },
+  { name: "Docker", category: "DATABASE & TOOLS", tier: "", description: "Environment — containerised deployment for backend services." },
+  { name: "Git & CI/CD", category: "DATABASE & TOOLS", tier: "", description: "Workflow — version control and deployment pipelines across all active projects." },
 ];
 
 export default function SkillsSection() {
@@ -94,7 +38,7 @@ export default function SkillsSection() {
           title="CORE"
           highlight="PROFICIENCIES"
           metaTop="EVALUATION: SELF-AUDITED"
-          metaBottom="TOTAL ENTRIES: 12 MODULES"
+          metaBottom="TOTAL ENTRIES: 16 MODULES"
         />
 
         <SkillsFilterTabs

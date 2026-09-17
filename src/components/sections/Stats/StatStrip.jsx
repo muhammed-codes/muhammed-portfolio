@@ -9,18 +9,18 @@ const STATS = [
   },
   {
     number: "[NESTJS]",
-    caption: "[CORE ARCHITECTURE]",
-    sublabel: "[Enterprise Backends & GraphQL]",
+    caption: "[CORE BACKEND FRAMEWORK]",
+    sublabel: "[Core backend framework I build with daily]",
   },
   {
     number: "[REACT NATIVE]",
-    caption: "[MOBILE PLATFORMS]",
-    sublabel: "[Cross-Platform iOS & Android]",
+    caption: "[CROSS-PLATFORM MOBILE]",
+    sublabel: "[Cross-platform mobile, iOS & Android]",
   },
   {
     number: "[NIGERIA]",
-    caption: "[LOCATION & DISPATCH]",
-    sublabel: "[Available For Global Remote]",
+    caption: "[LOCATION]",
+    sublabel: "[Based in Ilorin, open to remote work globally]",
   },
 ];
 

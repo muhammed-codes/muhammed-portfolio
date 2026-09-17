@@ -5,6 +5,7 @@ import ContactMeta from "./ContactMeta";
 import ContactForm from "./ContactForm";
 
 export default function ContactSection() {
+  // content.md provides no replacement copy for the contact form/meta details; preserve them.
   return (
     <section id="contact" className="py-24 md:py-32 border-t border-border bg-bg">
       <Toaster position="top-right" />

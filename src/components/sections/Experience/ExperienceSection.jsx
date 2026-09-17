@@ -4,39 +4,15 @@ import ExperienceEntry from "./ExperienceEntry";
 
 const EXPERIENCES = [
   {
-    role: "[Senior FullStack Engineer]",
-    organization: "[Client Engagements & Contract]",
-    period: "[2023 — PRESENT]",
-    location: "[ILORIN, NIGERIA • REMOTE]",
+    role: "[Full Stack Developer]",
+    organization: "[Async Technologies]",
+    period: "[June 2025 — Present]",
+    location: "[Ilorin, Nigeria • Remote]",
     bullets: [
-      "Architected and deployed <strong>scalable NestJS backends</strong> serving cross-platform clients with <strong>GraphQL APIs</strong>.",
-      "Engineered <strong>automated PDF report generation</strong> using <strong>Puppeteer</strong>, reducing manual processing overhead by <strong>60%</strong>.",
-      "Integrated secure <strong>Paystack payment processing</strong> with asynchronous webhook verification handling live transactions.",
+      "I lead development on MSGold's staff application — schemes, wallet, orders, finance, KYC, and notifications — for a platform serving roughly 10,000 customers and 168 staff across web, app, and admin.",
+      "I also maintain MSGold's backend, admin dashboard, and customer-facing apps alongside the original build team, and I'm the lead developer on ZyncGold's customer web and mobile apps, covering live gold-rate updates and a full e-commerce flow from browsing to checkout.",
     ],
-    projects: ["[SchoolPilot]", "[Taskr]", "[Family Tree]"],
-  },
-  {
-    role: "[Mobile Application Developer]",
-    organization: "[Product Engineering & Freelance]",
-    period: "[2022 — 2023]",
-    location: "[REMOTE]",
-    bullets: [
-      "Built and shipped cross-platform <strong>React Native</strong> applications utilizing <strong>Expo</strong> and <strong>WatermelonDB</strong> for offline persistence.",
-      "Implemented <strong>camera barcode & QR scanner</strong> modules boosting inventory lookup speeds by <strong>60%</strong>.",
-      "Maintained <strong>strict TypeScript typing</strong> across UI component libraries and API data models.",
-    ],
-    projects: ["[Barcode Scanner App]", "[HRS Platform]"],
-  },
-  {
-    role: "[Mathematics & Technical Educator]",
-    organization: "[Akademiyyatul Bayaan]",
-    period: "[2021 — 2022]",
-    location: "[ILORIN, NIGERIA]",
-    bullets: [
-      "Instructed advanced mathematical foundations, emphasizing <strong>analytical problem solving</strong> and algorithmic logic.",
-      "Developed structured curriculum and evaluated academic progress for <strong>100+ students</strong>.",
-    ],
-    projects: ["[Curriculum Design]", "[Analytical Problem Solving]"],
+    projects: ["[MSGold Staff App]", "[ZyncGold Web & Mobile]"],
   },
 ];
 

@@ -4,6 +4,7 @@ import FooterLinks from "./FooterLinks";
 import FooterBottom from "./FooterBottom";
 
 export default function Footer() {
+  // content.md provides no replacement copy for the footer; preserve it exactly.
   return (
     <footer className="border-t border-border bg-bg pt-16 pb-12">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-10">

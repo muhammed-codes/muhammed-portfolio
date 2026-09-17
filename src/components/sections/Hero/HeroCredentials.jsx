@@ -5,7 +5,7 @@ import { FiCheckCircle } from "react-icons/fi";
 export default function HeroCredentials() {
   const credentials = [
     "[3+ Years Engineering]",
-    "[FullStack Architecture]",
+    "[Full Stack & Mobile Systems]",
     "[Remote & Contract Ready]",
   ];
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function HeroEyebrow({
-  role = "[SOFTWARE ENGINEER]",
+  role = "[FULL STACK DEVELOPER]",
   location = "[ILORIN, NIGERIA]",
 }) {
   return (

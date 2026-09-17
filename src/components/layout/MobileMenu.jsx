@@ -44,7 +44,8 @@ export default function MobileMenu({
         </Button>
         <Button
           variant="ghost"
-          href="#contact"
+          href="https://drive.google.com/file/d/1EZdFahm547ANK1coRXYegMehbogieXm0/view?usp=sharing"
+          target="_blank"
           icon={FiFileText}
           onClick={onClose}
           className="w-full"

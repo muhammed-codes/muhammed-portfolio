@@ -5,11 +5,12 @@ import { FiCheck } from "react-icons/fi";
 const WORKFLOW_ITEMS = [
   { label: "Backend Architecture", tool: "NestJS + Prisma" },
   { label: "Mobile Engineering", tool: "React Native + Expo" },
-  { label: "Database Engineering", tool: "PostgreSQL + Supabase" },
+  { label: "Database Engineering", tool: "PostgreSQL + TypeORM/Prisma/MongoDB" },
   { label: "API Systems", tool: "REST + GraphQL" },
   { label: "Document Generation", tool: "Puppeteer + Chromium" },
-  { label: "Payment Integrations", tool: "Paystack + Webhooks" },
+  { label: "Payment Integrations", tool: "Paystack" },
   { label: "Offline-First Sync", tool: "WatermelonDB + SQLite" },
+  { label: "Real-Time Systems", tool: "Socket.IO" },
   { label: "System Architecture", tool: "Modular & Type-Safe" },
 ];
 

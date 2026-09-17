@@ -3,6 +3,7 @@ import CornerFrame from "../../common/CornerFrame";
 import AnnotationStrip from "../../common/AnnotationStrip";
 
 export default function HeroVisual() {
+  // content.md provides no replacement copy for this existing blueprint visual panel; preserve it.
   return (
     <CornerFrame className="w-full max-w-lg mx-auto lg:max-w-none">
       <div className="bg-surface border border-border flex flex-col">
