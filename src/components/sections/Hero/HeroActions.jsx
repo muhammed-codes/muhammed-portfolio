@@ -14,7 +14,7 @@ export default function HeroActions() {
       </Button>
       <Button
         variant="accent"
-        href="https://drive.google.com/file/d/1EZdFahm547ANK1coRXYegMehbogieXm0/view?usp=sharing"
+        href="https://drive.google.com/file/d/1snJmuVFpbp2ivRZglfq7snLGd8WyhUvw/view?usp=sharing"
         target="_blank"
         icon={FiFileText}
       >
